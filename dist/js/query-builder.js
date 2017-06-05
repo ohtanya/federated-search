@@ -2548,11 +2548,11 @@ QueryBuilder.templates.group = '\
 <dl id="{{= it.group_id }}" class="rules-group-container"> \
   <dt class="rules-group-header"> \
     <div class="pull-right group-actions"> \
-      <button type="button" class="btn btn-xs btn-primary" data-add="rule"> \
+      <button type="button" class="btn btn-xs btn-secondary" data-add="rule"> \
         <i class="{{= it.icons.add_rule }}"></i> {{= it.translate("add_rule") }} \
       </button> \
       {{? it.settings.allow_groups===-1 || it.settings.allow_groups>=it.level }} \
-        <button type="button" class="btn btn-xs btn-primary" data-add="group"> \
+        <button type="button" class="btn btn-xs btn-secondary" data-add="group"> \
           <i class="{{= it.icons.add_group }}"></i> {{= it.translate("add_group") }} \
         </button> \
       {{?}} \
