@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Index - federated_search</title>
+
+
+
+  <link rel="stylesheet" href="main.min.css">
+  <meta name="x-stylesheet-fallback-test" content="" class="sr-only">
+  <script>
+  ! function(a, b, c, d) {
+    var e, f = document,
+      g = f.getElementsByTagName("SCRIPT"),
+      h = g[g.length - 1].previousElementSibling,
+      i = f.defaultView && f.defaultView.getComputedStyle ? f.defaultView.getComputedStyle(h) : h.currentStyle;
+    if (i && i[a] !== b)
+      for (e = 0; e < c.length; e++) f.write('<link href="' + c[e] + '" ' + d + "/>")
+  }("position", "absolute", ["\/lib\/bootstrap\/dist\/css\/bootstrap.min.css"], "rel=\u0022stylesheet\u0022 ");
+  </script>
+  <link rel="stylesheet" href="/css/site.min.css?v=SZ56l9iAMjwsC3lg_8ONpBnEfYbGculXCgb-yhj7aKs">
+
+
+</head>
+
+<body>
+  <nav class="navbar navbar-inverse">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="/">
+          <img src="logo.svg">
+        </a>
+
+        <h1 class="navbar-text">Federated Search</h1>
+      </div>
+      <div class="navbar-collapse collapse">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="/">Home</a></li>
+          <li><a href="/Home/About">About</a></li>
+          <li><a href="/Home/Contact">Contact</a></li>
+        </ul>
+      </div>
+
+    </div>
+  </nav>
+  <div class="container body-content content-wrapper">
+
+
+    <h2>Basic Search</h2>
+
+
+    <div id="basic">
+
+      <form action="/SimpleSearch/MySearch" method="post" class="form-inline">
+        <label class="label-control" for="Enter_the_Lucene_Query:">Enter the Lucene Query:</label>
+        <br>
+        <input class="form-control" id="LuceneQuery" name="LuceneQuery" style="width:300px" type="text" value="">
+        <!-- form here -->
+        <button type="submit" class="btn btn-primary">Search</button>
+
+        <div class="margin-top">
+          <textarea class="form-control" cols="40" id="SearchResult" name="SearchResult" rows="10" style="width: 100%; max-width: 100%;"></textarea>
+        </div>
+
+        <input class="form-control" name="__RequestVerificationToken" type="hidden" value="CfDJ8L2qed6tq_JBrEByn6zGFlHT6-iyrM7cLaqP7J9Z-bcOTRcfnVQnmrek3puriRh0KasK8sXW0Ik5H49Bv5SEB9YEb37PYAndcW8L_Vt99rguNjdWpz_xc71A_oiBa-2D_3o39vkuqqsQGbwvoeV42r0">
+      </form>
+    </div>
+  </div>
+
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6">Copyright &copy; Federated Search by <a href="http://bydeluxe.com">Deluxe</a></div>
+        <div class="col-sm-6 text-right">
+          <img class="logo" src="deluxe-red.svg">
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <script src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-2.2.0.min.js" crossorigin="anonymous" integrity="sha384-K+ctZQ+LL8q6tP7I94W+qzQsfRV2a+AfHIi9k8z8l9ggpc8X+Ytst4yBo/hH+8Fk">
+  </script>
+  <script>
+  (window.jQuery || document.write("\u003Cscript src=\u0022\/lib\/jquery\/dist\/jquery.min.js\u0022 crossorigin=\u0022anonymous\u0022 integrity=\u0022sha384-K\u002BctZQ\u002BLL8q6tP7I94W\u002BqzQsfRV2a\u002BAfHIi9k8z8l9ggpc8X\u002BYtst4yBo\/hH\u002B8Fk\u0022\u003E\u003C\/script\u003E"));
+  </script>
+  <script src="https://ajax.aspnetcdn.com/ajax/bootstrap/3.3.7/bootstrap.min.js" crossorigin="anonymous" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa">
+  </script>
+  <script>
+  (window.jQuery && window.jQuery.fn && window.jQuery.fn.modal || document.write("\u003Cscript src=\u0022\/lib\/bootstrap\/dist\/js\/bootstrap.min.js\u0022 crossorigin=\u0022anonymous\u0022 integrity=\u0022sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa\u0022\u003E\u003C\/script\u003E"));
+  </script>
+  <script src="/js/site.min.js?v=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU"></script>
+
+
+
+
+
+</body>
+<div class="hovercards-root">
+  <div data-reactroot=""></div>
+</div>
+
+</html>
